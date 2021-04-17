@@ -1,2 +1,1 @@
-# RgSware.github.io
-** WELCOME TO MY PORTFOLİO SITE **
+# WELCOME TO MY PORTFOLİO SITE
