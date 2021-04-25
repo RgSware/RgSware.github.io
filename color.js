@@ -122,6 +122,7 @@ startButton.addEventListener("click",function(duration){
         display.textContent = minutes + ":" + seconds;
 
         if(timer == -1){
+          ilksayfa.style.display = 'block';
             window.location.reload(true);
             window.alert("Total Score : " + score.toString());
         }
