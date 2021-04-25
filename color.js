@@ -136,7 +136,7 @@ for(var i = 0; i < square.length; i++) {
     var clickedColor = this.style.background;
     if (clickedColor === pickedColor) {
       score += 1;  
-      messageDisplay.textContent = "Good Job!";
+      messageDisplay.textContent = "Your Score: " + score.toString();
       this.style.background = "#232323";
       colors = generateRandomColors(numSquares);
       pickedColor = pickColor();
